@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Finder</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<header>
+  <h1>Welcome to Beauty!</h1>
+  <p>Personalized your true beauty here.</p>
+  <img src="l.png" alt="Beauty Logo">
+  <div class="search-container">
+    <input type="text" id="brand" placeholder="Enter favorite brand">
+    <input type="number" id="minPrice" placeholder="Min Price">
+    <input type="number" id="maxPrice" placeholder="Max Price">
+    <button id="searchButton">🔍</button>
+    <button onclick="window.location.href='wishlist.html'">My Favourite</button>
+  </div>
+</header>
+
+<main>
+  <div id="product-container"></div>
+  
+  <section id="custom-product-section">
+    <h3>List Makeup to Buy</h3>
+    <h4>Enter makeup type: <input type="text" id="customProductType" placeholder="mascara"></h4>
+    <h4>Enter makeup brand: <input type="text" id="customProductBrand" placeholder="nyx"></h4>
+    <button onclick="createCustomProduct()">Create Product</button>
+    
+    <button onclick="downloadProducts()">Download Product List</button>
+
+    <div id="edit-product-section" style="display: none; margin: 30px;">
+      <input type="text" id="editProductName" placeholder="New Name">
+      <button onclick="updateProduct()">Save</button>
+      <button onclick="cancelUpdate()">Cancel</button>
+    </div>
+
+    <h3>Your List to Buy</h3>
+    <div id="customProductList"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Beauty Finder &copy; 2024</p>
+  <i>Aimi Syahmina</i>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>

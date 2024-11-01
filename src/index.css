@@ -1,0 +1,210 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FFF5E1; /* Light, warm golden background */
+  color: #4D3B2D; /* Rich, earthy brown for text */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url('a.png');
+}
+
+header h1 {
+  font-size: 2.5em;
+  color: #FFF5E1; /* Golden brown for headings */
+  padding: 0%;
+  margin: 0;
+}
+
+header p{
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+header img {
+  width: 300px;
+  height: auto;
+  margin-top: 0;
+}
+
+img{
+  width: 200px;
+  height: auto;
+  margin-top: 50px;
+}
+/* Header */
+header {
+  background-color: #694c27; /* Golden brown */
+  color: #FFFFFF;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+header .search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.search-container input {
+  padding: 10px;
+  border: 2px solid #C58940; /* Golden brown border */
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #FFE6B3; /* Soft golden background */
+}
+
+.search-container button {
+  background-color: #FFE6B3; /* Golden brown button */
+  color: #4D3B2D;
+  border: 2px solid #C58940;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.search-container button:hover {
+  background-color: #FFF5E1; /* Darker golden-brown on hover */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product {
+  border: 1px solid #C58940; /* Golden brown border */
+  border-radius: 8px;
+  padding: 15px;
+  width: 220px;
+  background-color: #FFE6B3; /* Soft golden background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  color: #A6692A; /* Darker golden-brown for product titles */
+}
+
+.product p {
+  color: #4D3B2D; /* Earthy brown for product details */
+}
+
+.product button {
+  background-color: #C58940; /* Golden brown button */
+  color: #FFFFFF;
+  margin-top: 10px;
+  border-radius: 5PX;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #A6692A; /* Darker golden-brown on hover */
+}
+
+.logo {
+  max-width: 100px; 
+  display: block;
+}
+
+/* Footer */
+footer {
+  background-color: #694c27; /* Golden brown */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  margin-top: 3px;
+}
+footer p{
+  margin-bottom: 3px;
+}
+
+/* Styling for product details container */
+#product-details-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: #FFE6B3;
+  padding: 20px;
+  border: 2px solid #3D5A40; 
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+
+/* Back button styling */
+#backButton {
+  background-color: #C58940;
+  color: #FFF;
+  border: none;
+  padding: 10px 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  margin: 30px;
+  width: 300px;
+  text-align: center;
+}
+
+#backButton:hover {
+  background-color: #A6692A;
+}
+
+/*=================CRUD==================*/
+#custom-product-section{
+  border: 1px solid #C58940; /* Golden brown border */
+  border-radius: 8px;
+  padding: 15px;
+  width: 1300px;
+  background-color: #FFE6B3; /* Soft golden background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 30px;
+}
+
+#custom-product-section input {
+  padding: 10px;
+  border: 2px solid #C58940; /* Golden brown border */
+  border-radius: 5px;
+  margin-right: 5px;
+  background-color: #FFE6B3; /* Soft golden background */
+}
+
+#custom-product-section button {
+  background-color: #C58940; /* Golden brown button */
+  color: #FFFFFF;
+  margin-top: 5px;
+  border-radius: 5PX;
+  padding: 8px;
+  cursor: pointer;
+}
+
+#custom-product-section button:hover {
+  background-color: #A6692A; /* Darker golden-brown on hover */
+}
